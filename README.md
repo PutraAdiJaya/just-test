@@ -27,3 +27,12 @@ Running Beckend :
                     }
 
 
+
+Running Frontend :
+ - yarn install atau npm install
+ - yarn start atau npm run start
+ - buka browser :  http://localhost:8081/ 
+
+
+Hasil :
+

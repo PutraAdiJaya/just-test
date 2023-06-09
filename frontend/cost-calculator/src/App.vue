@@ -1,5 +1,5 @@
-<template> 
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template >  
+    <HelloWorld msg="Welcome to Your Vue.js App"/> 
 </template>
 
 <script>
@@ -21,5 +21,8 @@ export default {
   text-align: center;
   color: #ffffff;
   margin-top: 60px;
+}
+.gradient-background {
+  background: linear-gradient(to right, #1a2980, #26d0ce);
 }
 </style>
