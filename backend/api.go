@@ -54,13 +54,16 @@ func CalculateProductionCostHandler(c *gin.Context) {
 	response := ProductionCostResponse{
 		ProductionCost: productionCost,
 	}
+	c.Header("Access-Control-Allow-Origin", "http://localhost:8081")
+	c.Header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+	c.Header("Access-Control-Allow-Headers", "Origin, Content-Type, Content-Length")
 
 	c.JSON(200, response)
 }
 
 func main() {
 
-	gin.SetMode(gin.ReleaseMode)
+	gin.SetMode(gin.DebugMode)
 
 	r := gin.Default()
 	r.GET("/test", func(c *gin.Context) {
