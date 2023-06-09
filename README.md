@@ -35,4 +35,4 @@ Running Frontend :
 
 
 Hasil :
-
+![hasil](https://github.com/PutraAdiJaya/just-test/assets/44384563/47f3c303-68b3-4f3b-bf0b-15300a517903)
